@@ -1,0 +1,190 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0 5em;
+    background-color: rgb(43, 43, 112);
+    /* background-image: url(Images/IMG_6355.jpeg);
+    background-repeat: no-repeat; */
+    max-width: 100%;
+    overflow-x: hidden;
+    
+}
+
+
+
+.inner{
+    padding: 0 0em;
+}
+
+.homepage{
+    background-color: white;
+    /* background-color: rgb(144, 197, 231);  */
+    width: 100%;
+    height: 58em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-image: url(Images/ano.jpg); */
+    
+}
+
+/*.my-hero{
+    /* background-color: rgb(144, 197, 231);
+
+}*/
+
+a{
+    text-decoration: none;
+}
+
+/* .navbar{
+    background-color: white;
+    border: 1px solid white;
+    background-color: white;
+    width: 100%;
+    height: 5em;
+    
+
+} */
+
+.part1{
+    margin: 1em;
+
+}
+
+.part2{
+    margin-top: 1.5em;
+    float: left;
+    margin-right: 7em;
+    
+}
+
+
+#color-me{
+    color: rgb(222, 152, 21);
+    font-weight:bold ;
+    margin-right: 2em;
+
+}
+
+.part3{
+    margin-top: 1.5em;
+    margin-left: 6em;
+}
+
+/* #color-me-too{
+    color: rgb(222, 152, 21);
+    font-weight:bold ;
+    margin-top: 1.5em;
+
+} */
+
+/* .img-txt{
+    
+    
+} */
+
+/* .img-txt{
+    position: absolute;
+    width: 100%;
+    transform: translate(0%,-40%,-45%);
+     bottom: 40%; 
+     left: 45%;
+     z-index: 1; 
+     
+} */
+
+#board{
+    width: 92%; 
+    height: 170px;
+     /* background-color: rgb(137, 91, 6);  */
+     background-color: rgb(237, 232, 232); 
+     z-index: 1;
+
+     position: relative;
+     bottom: 7em; 
+     left: 3.2em;
+     border-radius: 20px;
+     /* opacity: 0.75; */
+}
+
+#hov{
+    position: relative;
+    top: 0.1em;
+    height: 60px;
+    width: 96%;
+    left: 1.5em;
+    background-color: rgb(147, 102, 17);
+    
+
+}
+
+#in{
+    width: 15em;
+     height: 2em;
+     background-color: white;
+     position: relative;
+     left: 10em;
+     top: 1em;
+}
+
+ #in:hover{
+    cursor: pointer; 
+    background: rgb(222, 152, 21); 
+    /* background: white; */
+    color: #000;
+    transition: 0.6s;
+} 
+
+#in-1{
+    width: 15em;
+     height: 2em;
+     position: relative;
+     left: 20em;
+     top: 1em;
+}
+
+
+
+#see{
+    width: 15em;
+     height: 2em;
+     position: relative;
+     left: 33em;
+     top: 1em;
+}
+
+#in-2{
+    width: 15em;
+     height: 2em;
+     background-color: white;
+     position: relative;
+     left: 22.5em;
+     top: 1em;
+}
+
+#in-2:hover{
+    cursor: pointer; 
+    background: rgb(222, 152, 21); 
+    /* background: white; */
+    color: #000;
+    transition: 0.6s;
+}
+
+#in-3{
+    width: 15em;
+     height: 2em;
+     background-color: #fff;
+     position: relative;
+     left: 35em;
+     top: 1em;
+}
+
+#in-3:hover{
+    cursor: pointer; 
+    background: rgb(222, 152, 21); 
+    /* background: white; */
+    color: #000;
+    transition: 0.6s;
+}

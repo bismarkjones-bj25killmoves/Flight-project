@@ -1,0 +1,174 @@
+ *{
+    font-family: sans-serif;
+} 
+
+body{
+    height: 100%;
+    width: 100%;
+    background: url(images/IMG_6356.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.main{
+display: flex;
+margin: auto;
+margin-top: 20px;
+
+
+}
+.main:hover{
+    background-attachment: fixed;
+}
+
+.main1{
+    display: flex;
+    margin: auto;
+}
+.main1:hover{
+    background-attachment: fixed;
+}
+
+.main3{
+    display: flex;
+    margin: auto;
+}
+
+.main3:hover{
+    background-attachment: fixed;
+}
+
+/* paragraph colo*/
+p{
+    color: black;
+}
+
+
+/* images structure*/
+
+.im1{
+    margin: auto;
+    text-align: center;
+}
+
+
+.im2{
+    margin: auto;
+    text-align: center;
+}
+
+.im3{
+    margin: auto;
+    text-align: center;
+}
+
+.im4{
+    margin: auto;
+    text-align: center;
+}
+.im5{
+    margin: auto;
+    text-align: center;
+}
+.im6{
+    margin: auto;
+    text-align: center;
+}
+.im7{
+    margin: auto;
+    text-align: center;
+}
+.im8{
+    margin: auto;
+    text-align: center;
+}
+
+.im9{
+    margin: auto;
+    text-align: center;
+}
+.im10{
+    margin: auto;
+    text-align: center;
+}
+.im11{
+    margin: auto;
+    text-align: center;
+}
+.im12{
+    margin: auto;
+    text-align: center;
+}
+
+.m2{
+    width: 280px;
+    height: 350px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+
+/* Effects of the images on hover*/
+
+.m2:hover{
+    
+    background-attachment: fixed;
+    transition: 0.5s;
+    transform: scale(1.1);
+
+}
+/*
+p:hover{
+    color: aqua;
+    transform: scale(1.05);
+}
+*/
+
+.navbar{
+    background: white;
+    height: 80px;
+    display: flex;
+    /* max-width: 100%; */
+}
+
+
+.navbar a {
+    text-decoration: none;
+}
+
+
+
+
+.part1{
+    margin: 1em;
+
+}
+
+.part2{
+    margin-top: 1.5em;
+    float: left;
+    margin-right: 7em;
+    
+}
+
+
+#color-me{
+    color: rgb(222, 152, 21);
+    font-weight:bold ;
+    margin-right: 2em;
+
+}
+
+.part3{
+    margin-top: 1.5em;
+    margin-left: 6em;
+}
+
+  .navbar a:hover{
+    transform: scale(1.2);
+    color: aqua;
+}
+
+.hero{
+    top: 1px;
+}

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="strict-origin">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Prince Edison">
+    <link rel="icon" type="images/x-icon" href="icon.png" />
+    <title>Book A Hotel</title>
+    <link rel="stylesheet" href="Book_A_Hotel.css">
+</head>
+<body>
+
+    <div class="statement_box_head">
+        <p id="top_words">
+            <strong><em>BJ</em></strong> is a simple one step personal room finding services where all you
+            need to do is to tell us the best price <br> you have recieved from any online website selling
+            hotel rooms or from hotels directly and we will beat that price. <br> You can fill the form below 
+            for a considerable lower price.
+        </p>
+
+    </div>
+
+
+    <div class="form_box">
+        <form action="welcome.php" method="post" class="fill_in">
+            <p class="h3">Your best rate!</p>
+            <input type="text" name="City, Country" id="input" placeholder="City, Country" required><br>
+            <input type="text" name="Hotel" id="input" placeholder="Hotel Name" required><br>
+            <p id="position">Date From: <input type="date" name="date_from" id="" style="margin-left: 15px;"></p>
+            <p id="position">Date To: <input type="date" name="date_to" id="" style="margin-left: 15px;"></p><br>
+
+            <p id="position">
+            <label for="rooms">Rooms: </label>
+                <select name="rooms" id="preference">
+                    <option value="...">.......</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select></p>
+
+            <p id="position">    
+            <label for="adult">Adult: </label>
+                <select name="adult" id="preference">
+                    <option value="...">.......</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select></p>
+
+            <p id="position">    
+            <label for="children">Children: </label>
+                <select name="children" id="preference">
+                    <option value="...">.......</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select></p>
+<br><br>
+                <p class="breakfast">Breakfast included?</p>
+                <p id="breakfast_yes"><input type="radio" name="breakfast" value="yes" id="">Yes</p>
+                <p id="breakfast_no"><input type="radio" name="breakfast" value="no" id="">No</p>
+<br><br>
+                Best price you have recieved for this room for the whole stay:
+                <input type="text" name="price" id="price" placeholder="USD $" style="margin-left: 25px;">
+
+
+                <br><br>
+                <p class="breakfast">Are all taxes included in the above price?</p>
+                <p id="breakfast_yes"><input type="radio" name="price_include" value="yes" id="">Yes</p>
+                <p id="breakfast_no"><input type="radio" name="price_include" value="no" id="">No</p>
+<br>
+                <input type="text" name="name" id="input" placeholder="Your Name" required><br>
+                <input type="email" name="email" id="input" placeholder="Your Email" required><br>
+<br>
+                <input type="submit" title="Submit" value="Submit" class="btnSubmit">
+                <br>
+                <a href="#">Privacy Policy</a>
+
+        </form>
+    </div>
+
+
+    <div class="side_form">
+        <p id="process_steps">
+            Process that has never been simpler before!
+        </p>
+
+        <p>
+            <ol>
+                <li class="instructions">Simply complete the form and provide us your traveling details and hotel 
+                    name which you like to book.</li>
+                <li class="instructions">Once we recieve your form, we look for the cheapest hotel room reate 
+                    as per your selected preference and send you the link which beat the 
+                    price you've found somewhere else.
+                </li>    
+            </ol>
+        </p>
+        <p id="take_note">
+            <span class="note">Please Note:</span> Please place online reservation at least 3 days in advance. 
+            This service is completly free of charge and you do not
+             need to pay us anything.
+        </p>
+    </div>
+
+    <div class="note_bar">
+
+        <div class="text1" style="color: gainsboro;">
+            <p id="others"><q style="color: gainsboro;">What others say about us</q></p>
+            <q><strong><em>BJ</em></strong> takes away all the hassie of browsing so many
+                websites on the internet to get the best rates, this is a great personal service.</q> <br>
+            <cite>- Prince Edison</cite>
+        </div>
+
+        <div class="text2" style="color: gainsboro;">
+           <q>You guys did and awesome job in finding a cheaper hotel room deal for our vacation stay
+            and all of this without charging us a dime...</q>  <br>
+            <cite>- Suabi</cite>
+
+        </div>
+
+        <div class="text3" style="color: gainsboro;">
+           <q>I browsed so many hotel websites and wasted countless hours but the only
+            best thing I did was filling in a simple form and you guys did rest of the job of
+            sorting the best rate for hotel room. Great job :)</q>
+            <cite>- Long Lyf</cite>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p id="foot">
+        ©Copyright 2023 <strong><em>BJ</em></strong><br>
+        All right reserved <br>
+        designed by Group 2 members
+        </p>
+    </div>
+
+
+
+</body>
+</html>

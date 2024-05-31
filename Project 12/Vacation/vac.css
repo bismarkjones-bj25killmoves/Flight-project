@@ -1,0 +1,137 @@
+
+/* *{
+    font-family: sans-serif;
+} */
+
+body{
+    background-image: radial-gradient(whitesmoke, darkgray);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0%;
+}
+
+.navbar{
+    background: white;
+    height: 80px;
+    display: flex;
+}
+
+
+.navbar a {
+    text-decoration: none;
+}
+
+
+
+
+.part1{
+    margin: 1em;
+    margin-right: 5em;
+
+}
+
+.part2{
+    margin-top: 2em;
+    float: left;
+    margin-right: 10em;
+    
+}
+
+
+#color-me{
+    color: rgb(222, 152, 21);
+    font-weight:bold ;
+    margin-right: 2em;
+
+}
+
+.part3{
+    margin-top: 2em;
+    margin-left: 6em;
+}
+/* .navbar a:hover{
+    transform: scale(1.2);
+    color: aqua;
+} */
+
+
+.nav{
+    height: 100px;
+    width: 100%;
+    background-color: aqua;
+    position:static;
+    overflow-y: visible;
+}
+
+.hero{
+    display: flex;
+}
+
+.hero ul{
+    display: flex;
+    justify-content: space-evenly;
+
+    
+}
+
+.hero ul li{
+    background: white;
+    border: 1px solid black;
+    margin-left: 45px;
+    list-style-type: none;
+    padding: 10px 5px;
+    border-radius: 10px;
+    width: 140px;
+    text-align: center;
+    text-decoration: none;
+  
+}
+.hero ul li a{
+    text-decoration: none;
+    color: black;
+   
+}
+
+.hero ul li:hover{
+    background: darkgray;
+
+}
+
+.img{
+    background-image: url("vac.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  
+    border-radius: 10px;
+    height: 450px;
+    width: 1150px;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+ .fa{
+    padding-left: 8px;
+ }
+
+ input[type=text]{
+    width: 60%;
+    padding: 15px;
+    margin: 190px 0 20px 150px;
+    border: none;
+    background: #f1f1f1;
+    justify-content: center;
+    border: 0.7px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+  button{
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    border: 0.7px solid black;
+    border-radius: 5px;
+  }
